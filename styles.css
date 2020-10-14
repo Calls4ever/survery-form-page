@@ -1,0 +1,69 @@
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 70%;
+    background-color: #F95700FF;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 3px 4px 6px
+  }
+  body{
+    background: repeating-linear-gradient(360deg, #00A4CCFF 2px, #00A4CAAF 58px, black 93px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #survey-form{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  input{
+    height: 30px;
+    font-size: 19px;
+    margin: 5px 5px 5px 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  label{
+    font-size: 19px;
+  }
+  select{
+     height: 30px;
+    font-size: 19px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  #description{
+     height: 30px;
+    font-size: 19px;
+    color: white;
+  }
+  textarea{
+    width: 100%;
+    height: 300px;
+    resize: none;
+    font-family: times;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+  }
+  fieldset{
+    border-radius: 10px;
+    border-color: white;
+    margin: 5px;
+    border-width: 2px;
+  }
+  legend{
+    color: white;
+  }
+  button{
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    color: #F95700FF;
+    font-size: 20px
+  }
