@@ -67,3 +67,28 @@
     color: #F95700FF;
     font-size: 20px
   }
+  #footer{
+    background-color: #F95700FF;
+    margin-top: 25px;
+    margin-bottom: -10px;
+    padding: 20px;
+    width: 100%;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+  }
+  #footer-content{
+    font-size: 19px;
+    text-align: center;
+    color: white;
+  }
+  #footer-links{
+    display: flex;
+    justify-content: space-around;
+  }
+  #footer-img{
+    max-width: 30px;
+  }
+  a{
+    text-decoration: none;
+  }
+  
